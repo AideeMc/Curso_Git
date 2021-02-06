@@ -1,10 +1,17 @@
-# Curso de Git
+# Introduction to git and github
 
 ## Historia de Git
 
 Git es un VCS creado en 2005 por Linus Torvalds. 
 
-### Que es Git
+---
+
+## ¿Que es VCS?
+
+Version Control System (Sistema de Control de Versiones).
+
+---
+## ¿Que es Git?
 
 - Es un sistema libre de código abierto disponible para la instalación en plataformas basadas en Unix, Windows y macOS. 
 - Tiene una arquitectura distribuida.
@@ -15,7 +22,7 @@ Git es un VCS creado en 2005 por Linus Torvalds.
 
 ## Proyectos de Git
 
-Los proyectos de Git contan de tres secciones:
+Los proyectos de Git están conformados por tres secciones:
   - **Directorio de Git**
    > Contiene el historial de todos los archivos y cambios.
   - **Árbol de trabajo**
@@ -27,22 +34,22 @@ Los proyectos de Git contan de tres secciones:
 
 ## Comandos de Git 
 
-- **git init**
-- **git add**
-- **git status**
-- **git commit -m** 
-- **git commit nano**
-- **git config**
-- **git config -l**
-- **git log**
+- **git init** : Iniciamos GIT en la carpeta donde esta el proyecto.
+- **git add** : Añadimos todos los archivos para el commit.
+- **git status** : Lista un estado actual del repositorio con lista de archivos modificados o agregados.
+- **git commit -m** : Cargar en el HEAD los cambios realizados.
+- **git commit nano** : Lanzará un editor de texto para solicitar más información.
+- **git config** : Puede ser usado para establecer una configuración específica de usuario, como el email, nombre de usuario.
+- **git config -l** : Muestra todas las propiedades.
+- **git log** : Se usa para ver el historial del repositorio listando ciertos detalles de la confirmación.
 ---
 
 ## Comandos de Linux
 
 - **ls -la** : Enumera los archivos que comienzan con un punto.
 - **ls -l .git/** : Se utiliza para ver que hay dentro de el.
-- **ls -l** : Comprueba el contenido actual del árbol de trabajo actual.
-- **diff** : Se utiliza para encontrar diferencias entre dos archivos.
-- **diff -u** : Se utiliza para comparar dos archivos, linea por linea y tener las diferentes lineas comparadas en paralelo en la misma salida.
+- **ls -l** : Comprueba el contenido actual del árbol de trabajo.
+- **diff** : Muestra los cambios realizados a un archivo.
+- **diff -u** : Se utiliza para comparar dos archivos.
 - **patch** : Es útil para aplicar diferencias de archivos.
 ---
