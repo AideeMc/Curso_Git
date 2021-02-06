@@ -47,7 +47,7 @@ Los proyectos de Git están conformados por tres secciones:
 ## Comandos de Linux
 
 - **ls -la** : Enumera los archivos que comienzan con un punto.
-- **ls -l .git/** : Se utiliza para ver que hay dentro de el.
+- **ls -l .git/** : Se utiliza para ver que hay dentro del arbol de trabajo.
 - **ls -l** : Comprueba el contenido actual del árbol de trabajo.
 - **diff** : Muestra los cambios realizados a un archivo.
 - **diff -u** : Se utiliza para comparar dos archivos.
