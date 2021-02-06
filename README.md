@@ -6,12 +6,12 @@ Git es un VCS creado en 2005 por Linus Torvalds.
 
 ---
 
-## ¿Que es VCS?
+## ¿Qué es VCS?
 
 Version Control System (Sistema de Control de Versiones).
 
 ---
-## ¿Que es Git?
+## ¿Qué es Git?
 
 - Es un sistema libre de código abierto disponible para la instalación en plataformas basadas en Unix, Windows y macOS. 
 - Tiene una arquitectura distribuida.
